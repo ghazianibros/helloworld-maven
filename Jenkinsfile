@@ -3,6 +3,6 @@ node{
         git 'https://github.com/ghazianibros/helloworld-maven.git'
     }
     stage('Compile-Package'){
-        sh 'mvn package'
+        sh 'mvn clean package'
     }
 }
